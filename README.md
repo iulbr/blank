@@ -44,18 +44,18 @@ b) Wie sieht das Band nach fünf Übergängen aus? Notieren Sie.
 c) Welche Eigenschaft eines Algorithmus ist hier **nicht** erfüllt? Erklären Sie in einem Satz.  
 
 ### Aufgabe 4) {___ BE von 5 BE} Betrachten Sie den unten dargestellten Quelltext.  
-![grafik](https://github.com/iulbr/blank/assets/70510036/fc38ec3f-02bb-437c-aeee-7a615e8d1642)  
 ```python
-# ?
 0   for j in range(7):
 1      for i in range(7):
 2         if i == 0 or i == 6 or i == j:
 3            print(' ', end="")🦄
 4         else:
 5            print(' ',end="")🍕
-6         print()
-7      print()
+6      print()
+7   print()
 ```
 a) Erläutern Sie die Wirkung der Zeilen 0, 1, 2 und 3, 4 und 5.  
-b) Welcher Buchstabe entsteht und warum ist es kein russisches И?   
+b) Welcher Buchstabe entsteht und warum ist es kein kyrillisches И?   
+
+### Aufgabe 5) {___ BE von 3 BE} ROT13 jrypur irefpuvrohat ragfpuyüffryg qvrfra grkg? rexyäera fvr na mjrv ohpufgnora!  
 
