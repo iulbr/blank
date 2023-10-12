@@ -57,5 +57,39 @@ c) Welche Eigenschaft eines Algorithmus ist hier **nicht** erfüllt? Erklären S
 a) Erläutern Sie die Wirkung der Zeilen 0, 1, 2 und 3, 4 und 5.  
 b) Welcher Buchstabe entsteht und warum ist es kein kyrillisches И?   
 
-### Aufgabe 5) {___ BE von 3 BE} ROT13 jrypur irefpuvrohat ragfpuyüffryg qvrfra grkg? rexyäera fvr na mjrv ohpufgnora!  
+### Aufgabe 5) {___ BE von 3 BE} ROT13 
+jrypur irefpuvrohat ragfpuyüffryg qvrfra grkg? rexyäera fvr na mjrv ohpufgnora!  
+
+## Am Rechner ohne Netz
+### Aufgabe N) {___ BE von N BE} turingmachine.io
+
+### Nützliche Python-Fragmente
+```
+x = int(input('Zahl bitte: '))
+print(x**2)
+
+> python3 main.py
+Zahl bitte: 5
+25
+
+
+text = 'seitanwurst'
+print(text.find('wurst'))
+# Ausgabe> 6
+
+
+print(ord('a'))    # Ausgabe> 97
+print(chr(97))     # Ausgabe> a
+
+plz = 12555
+print(f"Wir sind in {plz} Berlin.")
+# Ausgabe> Wir sind in 12555 Berlin.
+
+```
+
+## Am Rechner mit Netz
+### Aufgabe N) {___ BE von N BE} turingmachine.io
+a) Entwerfen Sie eine Turingmaschine (TM), die ein leeres Band mit Einses beschreibt und dabei nach links wandert.  
+Kopieren Sie den Quelltext der TM in ihrem Klausurordner.   
+b) Entwerfen Sie eine Turingmaschine (TM), die fortlaufend folgendes Muster auf ein leeres Band schreibt .oOo.oOo.oOo. usw.
 
