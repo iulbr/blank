@@ -16,7 +16,7 @@ h) for i in range(5): print(chr(97+i), end='')
 i*) for _ in range(7,0,2): print(7, end='')
 j*) for i in range(7,0,-2): print(7*i, end='')
 ```
-### Aufgabe 2) {___ BE von 5 BE} Notieren Sie möglichen Quellcode folgenden Ausgaben. Verwenden Sie unbedingt eine Schleifen.
+### Aufgabe 2) {___ BE von 5 BE} Notieren Sie möglichen Quellcode folgenden Ausgaben. Verwenden Sie immer eine Schleife.
 ```python
 a) +
    +
@@ -74,12 +74,13 @@ print("Na dann, machs gut.")
 a) Wie funktioniert die Schleife? Erklären Sie.  
 b) Warum führt eine auch Eingabe mit "Ende" zu Abbruch des Programms? Erklären Sie text.lower().  
 
-### Aufgabe 7) {___ BE von 4 BE} Caesar-Algorithmus.
-a) Implementieren Sie eine ausführliche Version des Algorithmus.  Verwenden Sie für jede neue Berechnung bzw. Anweisung einen neuen sprechenden Variablenname und eine neue Zeile im Quelltext
-b) Implementieren Sie eine kompakte, elegante Version ohne Hacks. 
-c) Der Text aus A5 soll automatisch durch eine Brute-Force-Attacke entschlüsselt werden.  
+### Aufgabe 7) {___ BE von 21 BE} Caesar-Algorithmus.
+a) Implementieren Sie eine ausführliche Version des Algorithmus.  Verwenden Sie für jede neue Berechnung bzw. Anweisung einen neuen sprechenden Variablenname und eine neue Zeile im Quelltext. (10 BE)  
+b) Implementieren Sie eine kompakte, elegante Version ohne Hacks. (5 BE)  
+c) Der Text aus A5 soll automatisch durch eine Brute-Force-Attacke entschlüsselt werden.  (6BE)  
 - Löschen Sie Sonderzeichen und Satzzeichen aus dem Text
 - Implementieren Sie ein Programm, das nacheinander den Text in allen 25 Verschiebungsmöglichkeiten ausgibt.
+  
 
 
 ### Nützliche Python-Fragmente
@@ -102,11 +103,21 @@ plz = 12555
 print(f"Wir sind in {plz} Berlin.")
 # Ausgabe> Wir sind in 12555 Berlin.
 
+def papagei(text):
+  return 2*text
+
+print(papagei('Hello Mars! '))
+# Ausgabe> Hello Mars! Hello Mars! 
+
 ```
 
 ## Am Rechner mit Netz
-### Aufgabe N) {___ BE von 6 BE} turingmachine.io
+### Aufgabe 8) {___ BE von 8 BE} turingmachine.io
 a) Entwerfen Sie eine Turingmaschine (TM), die ein leeres Band mit Einsen beschreibt und dabei nach links wandert.  
 Kopieren Sie den Quelltext der TM immer in ihren Klausurordner.   
 b) Entwerfen Sie eine Turingmaschine (TM), die fortlaufend folgendes Muster auf ein leeres Band schreibt .oOo.oOo.oOo. usw.
+
+### Aufgabe 9) {___ BE von 6 BE} Freistil, Dialog
+Schreiben Sie ein kleines Programm Ihrer Wahl, das wiederholt Eingaben verarbeitet und sinnvoll endet.
+
 
