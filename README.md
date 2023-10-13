@@ -16,7 +16,7 @@ h) for i in range(5): print(chr(97+i), end='')
 i*) for _ in range(7,0,2): print(7, end='')
 j*) for i in range(7,0,-2): print(7*i, end='')
 ```
-### Aufgabe 2) {___ BE von 5 BE} Notieren Sie möglichen Quellcode folgenden Ausgaben. Verwenden Sie immer eine Schleife.
+### Aufgabe 2) {___ BE von 5 BE} Notieren Sie möglichen Quellcode zu folgenden Ausgaben. Verwenden Sie immer eine Schleife.
 ```python
 a) +
    +
@@ -43,7 +43,7 @@ a) Beschreiben Sie die Funktion der Maschine in zwei Sätzen.
 b) Wie sieht das Band nach fünf Übergängen aus? Notieren Sie.  
 c) Welche Eigenschaft eines Algorithmus ist hier **nicht** erfüllt? Erklären Sie in einem Satz.  
 
-### Aufgabe 4) {___ BE von 5 BE} Betrachten Sie den unten dargestellten Quelltext.  
+### Aufgabe 4) {___ BE von 6 BE} Betrachten Sie den Quelltext unten.  
 ```python
 0   for j in range(7):
 1      for i in range(7):
@@ -54,10 +54,10 @@ c) Welche Eigenschaft eines Algorithmus ist hier **nicht** erfüllt? Erklären S
 6      print()
 7   print()
 ```
-a) Erläutern Sie die Wirkung der Zeilen 0, 1, 2 und 3, 4 und 5.  
+a) Erläutern Sie die Wirkung der Zeilen 0, 1, 2 + 3, sowie 4 + 5.  
 b) Welcher Buchstabe entsteht und warum ist es kein kyrillisches И?   
 
-### Aufgabe 5) {___ BE von 3 BE} ROT13 
+### Aufgabe 5) {___ BE von 4 BE} ROT13 
 jrypur irefpuvrohat ragfpuyüffryg qvrfra grkg? rexyäera fvr na mjrv ohpufgnora!  
 
 ## Am Rechner ohne Netz
@@ -76,12 +76,11 @@ b) Warum führt eine auch Eingabe mit "Ende" zu Abbruch des Programms? Erklären
 
 ### Aufgabe 7) {___ BE von 21 BE} Caesar-Algorithmus.
 a) Implementieren Sie eine ausführliche Version des Algorithmus.  Verwenden Sie für jede neue Berechnung bzw. Anweisung einen neuen sprechenden Variablenname und eine neue Zeile im Quelltext. (10 BE)  
-b) Implementieren Sie eine kompakte, elegante Version ohne Hacks. (5 BE)  
+b) Implementieren Sie eine kompakte, elegante Version ohne Hacks in ca. fünf Quelltextzeilen. (5 BE)  
 c) Der Text aus A5 soll automatisch durch eine Brute-Force-Attacke entschlüsselt werden.  (6BE)  
 - Löschen Sie Sonderzeichen und Satzzeichen aus dem Text
 - Implementieren Sie ein Programm, das nacheinander den Text in allen 25 Verschiebungsmöglichkeiten ausgibt.
   
-
 
 ### Nützliche Python-Fragmente
 ```python
@@ -91,10 +90,10 @@ print(x**2)
 > python3 main.py
 Zahl bitte: 5
 25
+
 text = 'seitanwurst'
 print(text.find('wurst'))
 # Ausgabe> 6
-
 
 print(ord('a'))    # Ausgabe> 97
 print(chr(97))     # Ausgabe> a
@@ -108,7 +107,6 @@ def papagei(text):
 
 print(papagei('Hello Mars! '))
 # Ausgabe> Hello Mars! Hello Mars! 
-
 ```
 
 ## Am Rechner mit Netz
