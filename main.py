@@ -1,3 +1,6 @@
+# Wow this is super nice now
+# Trying to use GitHub on this computer
+
 # This is an edit to test Git.
 # text = input("text? ").lower()
 # shift = int(input("shift? "))
